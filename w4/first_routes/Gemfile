@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'addressable'
 gem 'rest-client'
+gem 'annotate'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
