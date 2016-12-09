@@ -1,0 +1,16 @@
+<h1>  <%=@album.name%> </h1>
+
+<h2> Band: <a href="<%= band_url(@album.band) %>"><%= @album.band.name %></a> </h2>
+
+<h3> Track List </h3>
+
+<% @album.tracks.each do |track| %>
+  <a href="<%=track_url(track)%>"><%= track.name %></a><br>
+<% end %>
+
+<h3> Add New Track </h3>
+
+<p><%= button_to "Add Track", new_album_track_url(@album), method: :get %></p>
+
+## click on tracks
+##edit album // destroy album

@@ -1,0 +1,9 @@
+<h1>Track: <%=@track.name%> </h1>
+
+<h3>Album: <a href="<%=album_url(@track.album)%>"><%=@track.album.name%></h3></a>
+<h3>Track #: <%=@track.ord%></h3>
+<% if @track.bonus %>
+  <h2>**Bonus Track**</h2>
+<% end %>
+<h3>Lyrics:</h3>
+<p><%=@track.lyrics%></p>
