@@ -1,0 +1,18 @@
+
+
+.section-links {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-links li a {
+  text-decoration: none;
+}
+
+.section-links li a:hover {
+  text-decoration: underline;
+  background-color: $light-gray;
+}

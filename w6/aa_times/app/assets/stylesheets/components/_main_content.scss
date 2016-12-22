@@ -1,0 +1,46 @@
+.main {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: solid $light-gray 1px;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.react-article h1 {
+  font-size: 27px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.react-article h2 {
+  
+}
+
+.react-article h3 {
+  color: $gray;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.react-article li {
+  list-style-type: disc;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.react-article a {
+  color: $dark-blue;
+}
+
+.react-article ul {
+  margin-bottom: 12px;
+}
+
+.video {
+  // position: absolute;
+}
